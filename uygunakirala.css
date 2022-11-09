@@ -1,0 +1,1406 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 67px;
+    background-color: #15214a;
+    padding-left: 173px;
+    padding-top: 25px;
+    position: fixed;
+    z-index: 2;
+}
+
+.uygunakiralaimg {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.searchicondiv {
+    height: 60px;
+    width: 50px;
+    margin-left: 150px;
+    margin-top: -60px;
+    position: relative;
+    z-index: 1;
+}
+
+.searchicon {
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.textbardiv {
+    width: 810px;
+    height: 60px;
+    margin-left: 160px;
+    margin-top: -50px;
+}
+
+.textbar {
+    border-radius: 10px;
+    width: 670px;
+    height: 50px;
+    border: none;
+    padding-left: 50px;
+}
+
+.sehirdiv {
+    width: 100px;
+    height: 20px;
+    margin-left: 927px;
+    margin-top: -60px;
+}
+
+.sehiryazi {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.seceneklerdiv {
+    width: 50px;
+    height: 30px;
+    margin-left: 1400px;
+    margin-top: -100px;
+    display: none;
+}
+
+.kaydollogodiv {
+    width: 100px;
+    height: 100px;
+    margin-left: 1180px;
+    margin-top: -17px;
+}
+
+.kaydolyazidiv {
+    width: 200px;
+    height: 100px;
+    margin-left: 1205px;
+    margin-top: -115px;
+}
+
+.kaydolyazi {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px
+}
+
+.kategoridiv {
+    margin-left: 180px;
+    height: 150px;
+    width: 1400px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-left: 70px;
+    overflow: hidden;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+.swiper {
+    width: 1200px;
+    height: 180px;
+}
+
+.swiper-slide {
+    text-align: center;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.caricondis {
+    height: 80px;
+    width: 80px;
+    margin-left: -10px;
+    border-radius: 50%;
+    background-color: rgb(115, 47, 225);
+}
+
+.caricondis:hover {
+    box-shadow: 5px 5px 20px rgb(99, 26, 216), -5px -5px 20px rgb(99, 26, 216);
+    transition: 0.5s;
+}
+
+.caricon {
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+.cariconyazi {
+    display: inline-block;
+    margin-left: -55px;
+    margin-top: 120px;
+}
+
+.elecdis {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 0px;
+    background-color: rgb(218, 218, 23);
+}
+
+.elecdis:hover {
+    box-shadow: 5px 5px 20px rgb(223, 223, 7), -5px -5px 20px rgb(223, 223, 7);
+    transition: 0.5s;
+}
+
+.cpuicon {
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+.cpuiconyazi {
+    display: inline-block;
+    margin-left: -75px;
+    margin-top: 120px;
+}
+
+.builddis {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: -10px;
+    margin-top: 0px;
+    background-color: rgb(55, 147, 55);
+}
+
+.builddis:hover {
+    box-shadow: 5px 5px 20px rgb(45, 145, 7), -5px -5px 20px rgb(45, 145, 7);
+    transition: 0.5s;
+}
+
+.buildicon {
+    margin-left: 0px;
+    margin-top: 24px;
+}
+
+.buildiconyazi {
+    display: inline-block;
+    margin-left: -60px;
+    margin-top: 120px;
+}
+
+.couchdis {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: -10px;
+    margin-top: 0px;
+    background-color: aquamarine;
+}
+
+.couchdis:hover {
+    box-shadow: 5px 5px 20px rgb(110, 255, 207), -5px -5px 20px rgb(110, 255, 207);
+    transition: 0.5s;
+}
+
+.couchicon {
+    margin-top: 30px;
+}
+
+.couchiconyazi {
+    display: inline-block;
+    margin-left: -65px;
+    margin-top: 120px;
+}
+
+.fitnessdis {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: -10px;
+    margin-top: 0px;
+    background-color: #45e1ef;
+}
+
+.fitnessdis:hover {
+    box-shadow: 5px 5px 20px #35deee, -5px -5px 20px #35deee;
+    transition: 0.5s;
+}
+
+.fitnessicon {
+    margin-top: 28px;
+}
+
+.fitnessiconyazi {
+    display: inline-block;
+    margin-left: -65px;
+    margin-top: 120px;
+}
+
+.bookdis {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: -10px;
+    margin-top: 0px;
+    background-color: rgb(187, 128, 241);
+}
+
+.bookdis:hover {
+    box-shadow: 5px 5px 20px rgb(181, 117, 241), -5px -5px 20px rgb(181, 117, 241);
+    transition: 0.5s;
+}
+
+.bookicon {
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+.bookiconyazi {
+    display: inline-block;
+    margin-left: -63px;
+    margin-top: 120px;
+}
+
+.handtoolsdis {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: -0px;
+    background-color: rgb(49, 49, 241);
+}
+
+.handtoolsdis:hover {
+    box-shadow: 5px 5px 20px rgb(30, 30, 239), -5px -5px 20px rgb(30, 30, 239);
+    transition: 0.5s;
+}
+
+.handtoolsicon {
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+.handtoolsiconyazi {
+    display: inline-block;
+    margin-left: -80px;
+    margin-top: 120px;
+}
+
+.shopdis {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: -10px;
+    margin-top: 0px;
+    background-color: red;
+}
+
+.shopdis:hover {
+    box-shadow: 5px 5px 20px rgb(248, 43, 43), -5px -5px 20px rgb(248, 43, 43);
+    transition: 0.5s;
+}
+
+.shopicon {
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+.shopiconyazi {
+    display: inline-block;
+    margin-left: -60px;
+    margin-top: 120px;
+}
+
+.dressdis {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: -10px;
+    margin-top: 0px;
+    background-color: yellowgreen;
+}
+
+.dressdis:hover {
+    box-shadow: 5px 5px 20px rgb(157, 247, 22), -5px -5px 20px rgb(157, 257, 22);
+    transition: 0.5s;
+}
+
+.dressicon {
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+.dressiconyazi {
+    display: inline-block;
+    margin-left: -68px;
+    margin-top: 120px;
+}
+
+.futboldis {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: -10px;
+    margin-top: 0px;
+    background-color: rgb(37, 252, 252);
+}
+
+.futboldis:hover {
+    box-shadow: 5px 5px 20px rgb(19, 237, 237), -5px -5px 20px rgb(19, 237, 237);
+    transition: 0.5s;
+}
+
+.futbolicon {
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+.futboliconyazi {
+    display: inline-block;
+    margin-left: -63px;
+    margin-top: 120px;
+}
+
+.midicon {
+    margin-left: 185px;
+    height: 380px;
+    width: 1400px;
+}
+
+.midiconicbeyaz {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 675px;
+    margin-top: -37px;
+    position: relative;
+    z-index: 1;
+}
+
+.midbilgilendirmeyazidisinindisi {
+    height: 60px;
+    width: 1500px;
+    margin-left: 120px;
+    margin-top: 20px;
+    padding-top: 35px;
+}
+
+.midbilgilendirmeyazidisi {
+    height: 50px;
+    width: 180px;
+    margin-left: 70px;
+}
+
+.midbilgilendirmeyazi {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 25px;
+    color: black;
+}
+
+.midbilgilendirmeyazidisi2 {
+    height: 50px;
+    width: 150px;
+    margin-left: 70px;
+    margin-top: -40px;
+}
+
+.midbilgilendirmeyazi2 {
+    color: gainsboro;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.midbutonyönlendirmedisi {
+    width: 25px;
+    height: 25px;
+    background-color: #15214a;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 1340px;
+    margin-top: -85px;
+}
+
+.midbutonyönlendirmesiyazi {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.midbutonyönlendirmedisi2 {
+    width: 25px;
+    height: 25px;
+    background-color: #15214a;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 1380px;
+    margin-top: -40px;
+}
+
+.midbutonyönlendirmesiyazi2 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.anakategoridiv {
+    width: 1500px;
+    height: 560px;
+    margin-left: 170px;
+}
+
+.swiper2 {
+    width: 1450px;
+    height: 550px;
+}
+
+.swiper-slide {
+    text-align: center;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.kategoriilandisdiv {
+    border: 1px solid gainsboro;
+    height: 485px;
+    width: 320px;
+    margin-left: 2px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.kategoriilanicondiv {
+    height: 140px;
+    width: 280px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.kategoriilanicon {
+    border-radius: 20px;
+}
+
+.kategoriilanfiyatdisdiv {
+    border: 1px solid rgba(21, 33, 74, 0.1);
+    height: 38px;
+    width: 110px;
+    background-color: rgba(21, 33, 74, 0.1);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.kategoriilanfiyatyazi {
+    color: rgb(40, 51, 121);
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.kategoriilanyazidisi {
+    height: 20px;
+    width: 50px;
+    margin-top: -5px;
+    margin-left: 18px;
+}
+
+.kategoriilanyazisekli {
+    text-decoration: none
+}
+
+.kategoriilanyazi {
+    color: rgb(40, 51, 121);
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.kategoriilanyazidisi2 {
+    height: 20px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: -12px;
+}
+
+.kategoriilanyazi2 {
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+}
+
+.kategoriilanyildizdis {
+    height: 30px;
+    width: 130px;
+    margin-left: 9px;
+}
+
+.kategoriilancizgidiv {
+    height: 10px;
+    width: 300px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.kategoriilancizgi {
+    color: gainsboro;
+}
+
+.kategoriilanyazidisi3 {
+    height: 20px;
+    width: 100px;
+    margin-left: 15px;
+    margin-top: -13px;
+}
+
+.kategoriilanyazi3 {
+    font-size: 13px;
+    color: rgb(88, 88, 88);
+}
+
+.kategoriilanyazidisi4 {
+    height: 20px;
+    width: 80px;
+    margin-left: -6px;
+    margin-top: -13px;
+}
+
+.kategoriilanyazi4 {
+    color: gray;
+}
+
+.kategoriilancizgidiv2 {
+    height: 10px;
+    width: 300px;
+    margin-left: 11px;
+}
+
+.kategoriilancizgi2 {
+    color: gainsboro;
+}
+
+.kategoriilanicondiv2 {
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.kategoriilanyazidisi5 {
+    height: 30px;
+    width: 80px;
+    margin-left: 45px;
+    margin-top: -45px;
+}
+
+.kategoriilanyazisekli2 {
+    text-decoration: none;
+}
+
+.kategoriilanyazi5 {
+    font-size: 10px;
+    color: gainsboro;
+}
+
+.kategoriilanyazidisi6 {
+    height: 30px;
+    width: 80px;
+    margin-left: 47px;
+    margin-top: -27px;
+}
+
+.kategoriilanyazisekli3 {
+    text-decoration: none;
+}
+
+.kategoriilanyazi6 {
+    font-size: 12px;
+    color: rgb(40, 51, 121);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.kategoriilanyazisekli4 {
+    text-decoration: none;
+}
+
+.kategoributon {
+    width: 290px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 15px;
+    background-color: #15214a;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.kategoriilanyazi7 {
+    color: white;
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.kategoributon:hover {
+    background-color: #2d354c;
+    transition: 0.5s;
+}
+
+.kategoriilanyazi8 {
+    height: 20px;
+    width: 100px;
+    margin-top: -5px;
+    margin-left: 3px;
+}
+
+.kategoriilanyazi9 {
+    height: 20px;
+    width: 100px;
+    margin-top: -5px;
+    margin-left: 17px;
+}
+
+.kategoriilanyazi10 {
+    height: 20px;
+    width: 100px;
+    margin-top: -5px;
+    margin-left: 8px;
+}
+
+.kategoriilandisdiv2 {
+    border: 1px solid gainsboro;
+    height: 485px;
+    width: 320px;
+    margin-left: 0px;
+    margin-top: 2px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.kategoriilandisdiv3 {
+    border: 1px solid gainsboro;
+    height: 485px;
+    width: 320px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.kategoriilanyazidisi7 {
+    height: 20px;
+    width: 100px;
+    margin-left: 0px;
+    margin-top: -12px;
+}
+
+.kategoriilandisdiv4 {
+    border: 1px solid gainsboro;
+    height: 485px;
+    width: 320px;
+    margin-left: 2px;
+    margin-top: 10px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.kategoriilanyazidisi9 {
+    height: 20px;
+    width: 80px;
+    margin-left: 7px;
+    margin-top: -13px;
+}
+
+.kategoriilanyazidisi10 {
+    height: 20px;
+    width: 80px;
+    margin-left: 5px;
+    margin-top: -13px;
+}
+
+.bilgikutusudisdiv {
+    height: 500px;
+    width: 1430px;
+    border-radius: 15px;
+    border: 1px solid gainsboro;
+    margin-left: 160px;
+    margin-top: 100px;
+}
+
+.bilgikutusulogo {
+    height: 50px;
+    width: 150px;
+    margin-left: 170px;
+    margin-top: 170px;
+}
+
+.bilgikutusuyazidisi {
+    height: 30px;
+    width: 270px;
+    margin-left: 170px;
+    margin-top: -20px;
+}
+
+.bilgikutusuyazi {
+    color: black;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bilgikutusuyazidisi2 {
+    height: 30px;
+    width: 330px;
+    margin-left: 170px;
+    margin-top: -25px;
+}
+
+.bilgikutusuyazi2 {
+    color: gainsboro;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bilgikutusucizgidiv {
+    color: gainsboro;
+    height: 10px;
+    width: 450px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: -25px;
+    transform: rotate(90deg);
+    position: relative;
+    z-index: -1;
+}
+
+.bilgikutusuyazidisi3 {
+    height: 30px;
+    width: 100px;
+    margin-left: 920px;
+    margin-top: -120px;
+}
+
+.bilgikutusuyazi3 {
+    font-size: 17px;
+    color: rgb(65, 65, 65);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bilgikutusuyazidisi4 {
+    height: 30px;
+    width: 100px;
+    margin-left: 920px;
+    margin-top: -20px;
+}
+
+.bilgikutusuyazi4 {
+    font-size: 13px;
+    color: darkslategrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bilgikutusuyazidisi5 {
+    height: 30px;
+    width: 370px;
+    margin-left: 920px;
+    margin-top: -5px;
+}
+
+.bilgikutusuyazi5 {
+    color: gainsboro;
+    font-size: 15px;
+}
+
+.bilgikutusubutonyönlendirmedisi {
+    width: 25px;
+    height: 25px;
+    background-color: #15214a;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 920px;
+    margin-top: 80px;
+}
+
+.bilgikutusubutonyönlendirmesiyazi {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bilgikutusubutonyönlendirmedisi2 {
+    width: 25px;
+    height: 25px;
+    background-color: #15214a;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 960px;
+    margin-top: -40px;
+}
+
+.bilgikutusubutonyönlendirmesiyazi2 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.altbilgilendirmedisinindisi {
+    width: 1450px;
+    height: 300px;
+    margin-left: 150px;
+    padding-top: 75px;
+}
+
+.altbilgilendirmedis {
+    width: 105px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.altbilgilendirmeyazi {
+    color: #15214a;
+    font-weight: bold;
+}
+
+.altbilgilendirmeyazidiv {
+    width: 10px;
+    height: 30px;
+    margin-top: -25px;
+}
+
+.altbilgilendirmeyazi2 {
+    color: #727992;
+    margin-top: 0px;
+}
+
+.altbilgiyazistil {
+    text-decoration: none;
+}
+
+.altbilgilendirmeyazi2:hover {
+    text-decoration: underline;
+}
+
+.altbilgilendirmeyazidiv1-2 {
+    width: 190px;
+    height: 10px;
+}
+
+.altbilgilendirmedis2 {
+    width: 145px;
+    height: 240px;
+    margin-left: 450px;
+    margin-top: -305px;
+}
+
+.altbilgilendirmedis3 {
+    width: 225px;
+    height: 300px;
+    margin-left: 730px;
+    margin-top: -260px;
+}
+
+.altbilgilendirmedis4 {
+    width: 265px;
+    height: 300px;
+    margin-left: 1030px;
+    margin-top: -322px;
+}
+
+.altbilgilendirmedis5 {
+    width: 200px;
+    height: 200px;
+    margin-left: 1380px;
+    margin-top: -295px;
+}
+
+.altbilgilendirmeyazi3 {
+    color: #727992;
+    margin-top: -21px;
+    margin-left: 30px;
+}
+
+.altbilgilendirmeyazi3:hover {
+    text-decoration: underline;
+}
+
+.altbilgilendirmeyazi4 {
+    color: #ff1990;
+    margin-top: -21px;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+.altbilgialticizgi {
+    width: 1420px;
+    height: 10px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.altsosyalmedyalogodisi {
+    width: 200px;
+    height: 95px;
+    padding-top: 5px;
+    margin-left: 1380px;
+    display: inline-block;
+}
+
+.altlogoarabosluk {
+    padding-left: 5px;
+}
+
+.cardispencere {
+    width: 98px;
+    height: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.cardispencere:hover {
+    border: 1px solid purple;
+}
+
+/*Mobil Versiyon*/
+@media screen and (max-width: 800px) {
+    .navbar {
+        padding-left: 10px;
+        padding-top: 25px;
+        height: 70px;
+        z-index: 2;
+    }
+
+    .uygunakiralaimg {
+        width: 50px;
+        height: 50px;
+        margin-left: 0px;
+    }
+
+    .searchicon {
+        margin-top: 28px;
+    }
+
+    .textbardiv {
+        width: 70%;
+    }
+
+    .textbar {
+        margin-top: 10px;
+        width: 80%;
+        height: 40px;
+        border-radius: 7px;
+        margin-right: 20px;
+    }
+
+    .sehirdiv {
+        display: none;
+    }
+
+    .kaydollogodiv {
+        display: none;
+    }
+
+    .seceneklerdiv {
+        margin-left: 90%;
+        margin-top: -37px;
+        display: block;
+    }
+
+    .kategoridiv {
+        margin-left: 10px;
+        height: 150px;
+        width: 700px;
+        padding-top: 100px;
+        padding-left: 10px;
+        overflow: hidden;
+    }
+
+    .caricondis {
+        height: 85px;
+        width: 85px;
+        margin-left: -30px;
+    }
+
+    .caricon {
+        margin-left: 0px;
+        margin-top: 27px;
+    }
+
+    .cariconyazi {
+        margin-left: -55px;
+    }
+
+    .elecdis {
+        height: 85px;
+        width: 85px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .cpuicon {
+        margin-left: 0px;
+        margin-top: 28px;
+    }
+
+    .cpuiconyazi {
+        margin-left: -78px;
+    }
+
+    .builddis {
+        height: 85px;
+        width: 85px;
+        margin-left: -20px;
+        margin-top: 0px;
+    }
+
+    .buildicon {
+        margin-left: 0px;
+        margin-top: 27px;
+    }
+
+    .buildiconyazi {
+        margin-left: -60px;
+    }
+
+    .couchdis {
+        height: 85px;
+        width: 85px;
+        margin-left: -15px;
+        margin-top: 0px;
+    }
+
+    .couchicon {
+        margin-left: 0px;
+        margin-top: 29px;
+    }
+
+    .couchiconyazi {
+        margin-left: -62px;
+    }
+
+    .fitnessdis {
+        height: 85px;
+        width: 85px;
+        margin-left: -25px;
+        margin-top: 0px;
+    }
+
+    .fitnessicon {
+        margin-left: 0px;
+        margin-top: 27px;
+    }
+
+    .fitnessiconyazi {
+        margin-left: -65px;
+    }
+
+    .bookdis {
+        height: 85px;
+        width: 85px;
+        margin-left: -25px;
+        margin-top: 0px;
+    }
+
+    .bookicon {
+        margin-left: 0px;
+        margin-top: 29px;
+    }
+
+    .bookiconyazi {
+        margin-left: -62px;
+    }
+
+    .handtoolsdis {
+        height: 85px;
+        width: 85px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .handtoolsicon {
+        margin-left: 0px;
+        margin-top: 28px;
+    }
+
+    .handtoolsiconyazi {
+        margin-left: -75px;
+    }
+
+    .shopdis {
+        height: 85px;
+        width: 85px;
+        margin-left: -25px;
+        margin-top: 0px;
+    }
+
+    .shopicon {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .shopiconyazi {
+        margin-left: -59px;
+    }
+
+    .dressdis {
+        height: 85px;
+        width: 85px;
+        margin-left: -15px;
+        margin-top: 0px;
+    }
+
+    .dressicon {
+        margin-left: 0px;
+        margin-top: 28px;
+    }
+
+    .dressiconyazi {
+        margin-left: -67px;
+    }
+
+    .futboldis {
+        height: 85px;
+        width: 85px;
+        margin-left: -20px;
+        margin-top: 0px;
+    }
+
+    .futbolicon {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .futboliconyazi {
+        margin-left: -62px;
+    }
+
+    .midicon {
+        margin-left: 5%;
+        width: 700px;
+    }
+
+    .midicon>img {
+        width: 670px;
+    }
+
+    .midiconicbeyaz {
+        margin-left: 47%;
+    }
+
+    .midbilgilendirmeyazidisinindisi {
+        width: 730px;
+        margin-left: -50px;
+        margin-top: -200px;
+        padding-top: 0px;
+    }
+
+    .midbilgilendirmeyazidisi {
+        width: 250px;
+        margin-left: 12%;
+    }
+
+    .midbilgilendirmeyazi {
+        font-size: 25px;
+        font-weight: 25px;
+    }
+
+    .midbilgilendirmeyazidisi2 {
+        width: 180px;
+        margin-top: -38px;
+        margin-left: 12%;
+    }
+
+    .midbilgilendirmeyazi2 {
+        font-size: 17px;
+    }
+
+    .midbutonyönlendirmedisi {
+        margin-left: 94%;
+    }
+
+    .midbutonyönlendirmedisi2 {
+        margin-left: 100%;
+    }
+
+    .anakategoridiv {
+        width: 700px;
+        height: 510px;
+        margin-left: 15px;
+        overflow: hidden;
+    }
+
+    .kategoriilandisdiv {
+        margin-left: 0px;
+    }
+
+    .kategoriilandisdiv2 {
+        margin-left: -15px;
+    }
+
+    .kategoriilandisdiv3 {
+        margin-left: -15px;
+    }
+
+    .kategoriilandisdiv4 {
+        margin-left: -15px;
+    }
+
+    .bilgikutusudisdiv {
+        width: 700px;
+        height: 560px;
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+
+    .bilgikutusulogo {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .bilgikutusulogo>img {
+        height: 70px;
+    }
+
+    .bilgikutusuyazidisi {
+        width: 360px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    .bilgikutusuyazi {
+        font-size: 30px;
+    }
+
+    .bilgikutusuyazidisi2 {
+        width: 330px;
+        margin-left: 50px;
+        margin-top: 45px;
+    }
+
+    .bilgikutusuyazi2 {
+        font-size: 20px;
+    }
+
+    .bilgikutusucizgidiv {
+        display: none;
+    }
+
+    .bilgikutusuyazidisi3 {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .bilgikutusuyazi3 {
+        font-size: 21px;
+    }
+
+    .bilgikutusuyazidisi4 {
+        margin-left: 50px;
+        margin-top: -15px;
+    }
+
+    .bilgikutusuyazidisi5 {
+        margin-left: 50px;
+    }
+
+    .bilgikutusuyazi5 {
+        font-size: 20px;
+    }
+
+    .bilgikutusubutonyönlendirmedisi {
+        margin-left: 50px;
+    }
+
+    .bilgikutusubutonyönlendirmedisi2 {
+        margin-left: 95px;
+        margin-top: -41px;
+    }
+
+    .altbilgilendirmedisinindisi {
+        width: 600px;
+        height: 1300px;
+        margin-left: 15px;
+        padding-top: 35px;
+    }
+
+    .altbilgilendirmedis {
+        width: 130px;
+        margin-left: 10px;
+    }
+
+    .altbilgilendirmeyazidiv1-2 {
+        width: 215px;
+    }
+
+    .altbilgilendirmedis2 {
+        width: 160px;
+        margin-left: 25px;
+        margin-top: -1080px;
+    }
+
+    .altbilgilendirmedis3 {
+        width: 255px;
+        margin-left: 25px;
+        margin-top: 0px;
+    }
+
+    .altbilgilendirmedis4 {
+        width: 300px;
+        margin-left: 25px;
+        margin-top: -50px;
+    }
+
+    .altbilgilendirmedis5 {
+        width: 249px;
+        height: 200px;
+        margin-left: 25px;
+        margin-top: -5px;
+    }
+
+    .altbilgilendirmeyazi3 {
+        font-size: 20px;
+    }
+
+    .altbilgilendirmeyazi4 {
+        font-size: 20px;
+    }
+
+    .altbilgilendirmeyazi {
+        font-size: 20px;
+    }
+
+    .altbilgilendirmeyazi2 {
+        font-size: 18px;
+    }
+
+    .altbilgialticizgi {
+        width: 600px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .altsosyalmedyalogodisi {
+        width: 150px;
+        margin-left: 470px;
+    }
+}
